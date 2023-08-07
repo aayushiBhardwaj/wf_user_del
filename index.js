@@ -21,10 +21,10 @@ fs.createReadStream("temp.csv")
                 auth: {
                     user:
                         process.env.BROWSERSTACK_USERNAME ||
-                        "aayushib_T4hCqr",
+                        "username",
                     pass:
                         process.env.BROWSERSTACK_ACCESS_KEY ||
-                        "4nAyDrnTU2ahUaKD1gaH",
+                        "key",
                 },
                 qs: {
                     email: email,
